@@ -91,6 +91,46 @@ a {
   margin-bottom: -250px;
 }
 
+.prof__title{
+  font-size: 64px;
+  font-weight: 600;
+  font-family: var(--playfair-display);
+
+  color: var(--secondary-color);
+
+  margin-top: 16px;
+  margin-left: -20px;
+}
+.prof__subtitle{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--plus-jakarta-sans);
+
+  color: var(--primary-color);
+  opacity: 0.8;
+
+  letter-spacing: -0.01em;
+  margin-left: -15px;
+}
+.member__description{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--plus-jakarta-sans);
+
+  line-height: 36px;
+  letter-spacing: -0.01em;
+
+  color: var(--secondary-color);
+  opacity: 0.8;
+
+  margin: 32px;
+  margin-left: -15px;
+}
+
+.member__description span {
+  color: var(--primary-color)
+}
+
 .sushi__description {
   font-size: 18px;
   font-weight: 400;
@@ -105,9 +145,7 @@ a {
   margin: 32px 0px;
 }
 
-.sushi__description span {
-  color: var(--primary-color)
-}
+
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .sushi__hide-scrollbar::-webkit-scrollbar {

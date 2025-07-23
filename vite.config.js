@@ -2,5 +2,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/Sanju/', // <-- Change this to match your GitHub repo name
+  base: '/website/', // <-- Change this to match your GitHub repo name
 });
