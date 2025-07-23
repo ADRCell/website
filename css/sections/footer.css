@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
   padding: 20px 40px;
-  background: var(--color-white);
+  background: var(--primary-color);
 
   flex-wrap: wrap;
   gap: 20px;
@@ -20,7 +20,7 @@
 }
 
 .footer__logo span {
-  color: var(--primary-color)
+  color: var(--color-white)
 }
 
 .footer ul {

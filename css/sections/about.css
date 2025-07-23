@@ -74,7 +74,10 @@
 }
 
 .about-us__content {
-  padding: 64px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 64px;
+  padding-bottom: -1000px;
 
   flex: 1;
   display: flex;
